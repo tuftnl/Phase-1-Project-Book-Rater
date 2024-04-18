@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Rater</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Book Rater</h1>
+  </header>
+
+  <form id="search-book">
+    <input type="text" id="search" placeholder="Search for books...">
+    <input type="submit" value="Search">
+  </form>
+
+  <div id="book-container" class="container">
+ 
+  </div>
+
+  <div id="book-detail" class="detail">
+    <img id="detail-image" class="detail-image" src="" alt="">
+    <h2 id="detail-title"></h2>
+    <p id="detail-author"></p>
+    <p id="pages-display"></p>
+    <p id="plot-display"></p>
+  </div>
+
+  <h1>Reviewed Books</h1>
+  <div id="rated-container"></div>
+  <div id="rated-books" class="container">
+    <h2 id="rated-title"></h2>
+    <h3 id="rated-author"></h3>
+    <p id="rated-review"></p>
+  </div>
+
+  <div id="book-review-form">
+    <form id="new-book">
+      <h4>Add New Review</h4>
+      <label for="new-title">Title</label>: </label>
+      <input type="text" name="title" id="new-title" />
+
+      <label for="new-author">Author: </label>
+      <input type="text" name="author" id="new-author" />
+
+      <label for="new-image">Image: </label>
+      <input type="text" name="image" id="new-image" />
+
+      <label for="new-review">Review: </label>
+      <textarea name="new-review" id="new-review"></textarea>
+
+      <input type="submit" id='submit-button' value="Create" />
+    </form>
+  </div>
+
+  <form id="edit-book">
+    <h4>Update Book Review</h4>
+
+    <label for="update-review">Review: </label>
+    <textarea name="update-review" id="update-review"></textarea>
+
+    <input type="submit" value="Update" />
+  </form>
+
+  <script defer src="index.js"></script>
+</body>
+</html>

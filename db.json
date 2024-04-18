@@ -1,0 +1,59 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Chicken Soup for the Soul",
+      "author": "Jack Canfield, Mark Victor Hansen, Amy Newmark",
+      "image": "https://covers.openlibrary.org/b/id/6397977-L.jpg",
+      "pages": 0,
+      "review": "Great recipes, I loved the recipe for the classic chicken noodle soup."
+    },
+    {
+      "id": 2,
+      "title": "Kitchen Confidential",
+      "author": "Anthony Bourdain",
+      "image": "https://covers.openlibrary.org/b/id/843879-L.jpg",
+      "pages": 0,
+      "review": "I loved this book"
+    },
+    {
+      "id": 3,
+      "title": "",
+      "author": "",
+      "image": "",
+      "pages": 0,
+      "review": ""
+    },
+    {
+      "id": 4,
+      "title": "",
+      "author": "",
+      "image": "",
+      "pages": 0,
+      "plot": ""
+    },
+    {
+      "id": 5,
+      "title": "",
+      "author": "",
+      "image": "",
+      "pages": 0,
+      "review": ""
+    },
+    {
+      "id": 6,
+      "title": "",
+      "author": "",
+      "image": "",
+      "pages": 0,
+      "review": ""
+    },
+    {
+      "id": "f724",
+      "title": "Night before Xmas",
+      "author": "Whoknows",
+      "image": "https://covers.openlibrary.org/b/id/8236410-L.jpg",
+      "review": "I love this classic allegory."
+    }
+  ]
+}
