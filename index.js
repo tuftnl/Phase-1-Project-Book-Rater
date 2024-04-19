@@ -76,7 +76,7 @@ const addSubmitListener = () => {
     }
     console.log(newBookObj)
 
-    fetch('http://localhost:3000/books', {
+    fetch('https://bookraterdb.vercel.app/books', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ const addUpdateListener = () => {
     const editObj = {
       review: editBook.querySelector('#update-review').value
     }
-    fetch('http://localhost:3000/books/' + `${altId}`, {
+    fetch('https://bookraterdb.vercel.app/books/' + `${altId}`, {
       method: 'PATCH',
       headers: {
         'Content=type': 'application/json'
