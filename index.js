@@ -38,7 +38,7 @@ function showDetails(book) {
   plotDisplay.innerText = book.first_publish_year ? `First Published: ${book.first_publish_year}` : "Publication Year Unknown";
 }
 
-const fetchAndDisplayData = () => { //fetch data from db
+const fetchAndDisplayData = () => { 
   fetch('http://localhost:3000/books')
   .then (resp => resp.json())
   .then (data => {
@@ -107,7 +107,7 @@ const addUpdateListener = () => {
     })
     .then(resp => resp.json())
     .then(data => console.log(data))
-    //console.log(editObj)
+  
   })
 }
 
